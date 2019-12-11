@@ -2,6 +2,7 @@ Launch
 
 - rbenv install 2.5.5
 - bundle install
+- bundle exec rake db:create db:migrate
 - bundle exec ruby api_processor.rb
 
 -> ApiProcessor.call
