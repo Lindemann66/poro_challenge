@@ -1,0 +1,7 @@
+Launch
+
+- bundle exec ruby api_processor.rb
+- ApiProcessor.call
+
+For tests
+- bundle exec rspec spec

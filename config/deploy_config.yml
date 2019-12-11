@@ -1,0 +1,19 @@
+staging:
+  application: 'shastic_challenge'
+  git_repo: ''
+  git_branch: 'develop'
+  rails_env: 'staging'
+  user: 'aivanov'
+  run_user: 'service'
+  deploy_to: '/srv/projects/shastic_challenge'
+  cron_server: ''
+
+production:
+  application: 'shastic_challenge'
+  git_repo: ''
+  git_branch: 'master'
+  rails_env: 'production'
+  user: 'aivanov'
+  deploy_to: '/srv/projects/shastic_challenge'
+  run_user: 'service'
+  cron_server: ''

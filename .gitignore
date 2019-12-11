@@ -1,0 +1,16 @@
+.bundle
+db/*.sqlite3
+log/*.log
+tmp/*
+!tmp/.gitkeep
+vendor/bundle/
+*.swp
+*.swo
+coverage/
+db/development_structure.sql
+.idea
+config/settings/development.local.yml
+config/database.yml
+log
+public/system
+REVISION

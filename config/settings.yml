@@ -1,0 +1,15 @@
+default: &DEFAULT
+  fake_server_url: 'http://localhost:3000/fake_response'
+
+development:
+  <<: *DEFAULT
+
+production:
+  <<: *DEFAULT
+
+staging:
+  <<: *DEFAULT
+
+test:
+  <<: *DEFAULT
+
