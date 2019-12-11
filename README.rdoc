@@ -3,9 +3,12 @@ Launch
 - rbenv install 2.5.5
 - bundle install
 - bundle exec ruby api_processor.rb
-> ApiProcessor.call
-> Visit.all
-... some other usual stuff
+
+-> ApiProcessor.call
+
+-> Visit.all
+
+and some other usual stuff
 
 For tests
 - bundle exec rspec spec
